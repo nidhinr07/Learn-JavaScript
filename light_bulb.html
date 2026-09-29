@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.w3schools.com/js/pic_bulboff.gif" alt="" id="image">
+    <h2>Bulb Swtich</h2>
+    <hr style="color: white;">
+    <button onclick="lighton()">On</button>
+    <button onclick="lightoff()">Off</button>
+    <script>
+        function lightoff(){
+            document.getElementById('image').src='https://www.w3schools.com/js/pic_bulboff.gif';
+        }
+        function lighton(){
+            document.getElementById('image').src='https://www.w3schools.com/js/pic_bulbon.gif';
+        }
+
+    </script>
+</body>
+</html>
