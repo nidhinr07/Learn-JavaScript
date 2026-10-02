@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="head">
+            <h1>Calculator</h1>
+        </div>
+
+        <div class="btn">
+
+            <input type="text" id="x" readonly>
+
+            <div class="buttons">
+                <button onclick="aa(7)">7</button>
+                <button onclick="aa(8)">8</button>
+                <button onclick="aa(9)">9</button>
+                <button onclick="aa('/')" class="op">÷</button>
+
+                <button onclick="aa(4)">4</button>
+                <button onclick="aa(5)">5</button>
+                <button onclick="aa(6)">6</button>
+                <button onclick="aa('*')" class="op">×</button>
+
+                <button onclick="aa(1)">1</button>
+                <button onclick="aa(2)">2</button>
+                <button onclick="aa(3)">3</button>
+                <button onclick="aa('-')" class="op">−</button>
+
+                <button onclick="aa(0)">0</button>
+                <button onclick="aa('%')" class="op">%</button>
+                <button onclick="aa('+')" class="op">+</button>
+                <button onclick="bb()" class="equal">=</button>
+            </div>
+
+            <button onclick="clearDisplay()" class="clear">CLR</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
